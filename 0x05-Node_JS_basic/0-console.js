@@ -3,11 +3,8 @@
     console module
 */
 
-const process = require('process');
-
 const displayMessage = (strArg) => {
-  strArg = `${strArg}\n`
-  process.stdout.write(strArg);
+  console.log(strArg);
 };
 
 module.exports = displayMessage;
